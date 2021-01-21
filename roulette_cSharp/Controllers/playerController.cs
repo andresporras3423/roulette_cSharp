@@ -13,8 +13,7 @@ namespace roulette_cSharp.Controllers
     [ApiController]
     public class playerController : ControllerBase
     {
-        Connection c = new Connection();
-
+        readonly Connection c = new Connection();
         [HttpPost]
         public bool Post([FromBody]object response)
         {
@@ -24,10 +23,12 @@ namespace roulette_cSharp.Controllers
                 var players = c.Database.GetCollection<Player>("player");
                 Player nPlayer = new Player { Name = (String)p["name"], Credit = (Double)p["credit"] };
                 players.InsertOne(nPlayer);
+
                 return true;
             }
             catch
             {
+
                 return false;
             }
         }
