@@ -21,7 +21,7 @@ namespace roulette_cSharp.Controllers
         {
             try
             {
-                var games = c.Database.GetCollection<Game>("game").Find(g => true).ToList();
+                List<Game> games = c.Database.GetCollection<Game>("game").Find(g => true).ToList();
                 return generate_list_games(games);
             }
             catch
@@ -35,7 +35,7 @@ namespace roulette_cSharp.Controllers
         {
             try
             {
-                var games = c.Database.GetCollection<Game>("game");
+                IMongoCollection<Game> games = c.Database.GetCollection<Game>("game");
                 Game nGame = new Game {Status=0}; //0=created, 1=open, 2=close
                 games.InsertOne(nGame);
 
@@ -52,9 +52,9 @@ namespace roulette_cSharp.Controllers
         {
             try
             {
-                var games = c.Database.GetCollection<Game>("game");
-                var filter = Builders<Game>.Filter.Eq("_id", ObjectId.Parse(id));
-                var update = Builders<Game>.Update.Set("status", 1);
+                IMongoCollection<Game> games = c.Database.GetCollection<Game>("game");
+                FilterDefinition<Game> filter = Builders<Game>.Filter.Eq("_id", ObjectId.Parse(id));
+                UpdateDefinition<Game> update = Builders<Game>.Update.Set("status", 1);
                 games.UpdateOne(filter, update);
 
                 return true;

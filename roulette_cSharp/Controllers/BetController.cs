@@ -24,7 +24,7 @@ namespace roulette_cSharp.Controllers
             try
             {
                 update_player_credit((String)json_params["id_player"], -1 * (Double)json_params["value"]);
-                var bets = c.Database.GetCollection<Bet>("bet");
+                IMongoCollection<Bet> bets = c.Database.GetCollection<Bet>("bet");
                 Bet nBet = new Bet { Id_game = (String)json_params["id_game"], Id_player = (String)json_params["id_player"], Bet_number = (Int32)json_params["bet_number"], Value = (Double)json_params["value"] };
                 bets.InsertOne(nBet);
 
@@ -43,8 +43,8 @@ namespace roulette_cSharp.Controllers
             {
                 close_game(idGame);
                 int winner_number = new Random().Next(0, 36);
-                var filter = Builders<Bet>.Filter.Eq("id_game", idGame);
-                var bets = c.Database.GetCollection<Bet>("bet").Find(filter).ToList();
+                FilterDefinition<Bet> filter = Builders<Bet>.Filter.Eq("id_game", idGame);
+                List<Bet> bets = c.Database.GetCollection<Bet>("bet").Find(filter).ToList();
                 JObject json_data = give_prize_to_winner(bets, winner_number);
                 return json_data.ToString();
             }
@@ -85,16 +85,16 @@ namespace roulette_cSharp.Controllers
         }
         private void close_game(string id)
         {
-            var games = c.Database.GetCollection<Game>("game");
-            var filter = Builders<Game>.Filter.Eq("_id", ObjectId.Parse(id));
-            var update = Builders<Game>.Update.Set("status", 2);
+            IMongoCollection<Game> games = c.Database.GetCollection<Game>("game");
+            FilterDefinition<Game> filter = Builders<Game>.Filter.Eq("_id", ObjectId.Parse(id));
+            UpdateDefinition<Game> update = Builders<Game>.Update.Set("status", 2);
             games.UpdateOne(filter, update);
         }
         private void update_player_credit(string id_player, double increase)
         {
-            var players = c.Database.GetCollection<Player>("player");
-            var filter = Builders<Player>.Filter.Eq("_id", ObjectId.Parse(id_player));
-            var update = Builders<Player>.Update.Inc("credit", increase);
+            IMongoCollection<Player> players = c.Database.GetCollection<Player>("player");
+            FilterDefinition<Player> filter = Builders<Player>.Filter.Eq("_id", ObjectId.Parse(id_player));
+            UpdateDefinition<Player> update = Builders<Player>.Update.Inc("credit", increase);
             players.UpdateOne(filter, update);
         }
     }
