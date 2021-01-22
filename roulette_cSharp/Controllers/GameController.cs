@@ -16,6 +16,20 @@ namespace roulette_cSharp.Controllers
     public class GameController : ControllerBase
     {
         readonly Connection c = new Connection();
+        [HttpGet]
+        public IEnumerable<Dictionary<string, string>> Get()
+        {
+            try
+            {
+                var games = c.Database.GetCollection<Game>("game").Find(g => true).ToList();
+                return generate_list_games(games);
+            }
+            catch
+            {
+
+                return null;
+            }
+        }
         [HttpPost]
         public string Post()
         {
@@ -50,6 +64,20 @@ namespace roulette_cSharp.Controllers
 
                 return false;
             }
+        }
+        private List<Dictionary<string, string>> generate_list_games(List<Game> games)
+        {
+            string[] status = { "Created", "Open", "Closed" };
+            List<Dictionary<string, string>> list_games = new List<Dictionary<string, string>>();
+            foreach (var game in games)
+            {
+                Dictionary<string, string> current_game = new Dictionary<string, string>();
+                current_game["id"] = game.Id.ToString();
+                current_game["status"] = status[game.Status];
+                list_games.Add(current_game);
+            }
+
+            return list_games;
         }
     }
 }
