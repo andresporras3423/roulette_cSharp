@@ -17,11 +17,11 @@ namespace roulette_cSharp.Controllers
         [HttpPost]
         public bool Post([FromBody]object response)
         {
-            JObject p = JObject.Parse(response.ToString());
+            JObject json_params = JObject.Parse(response.ToString());
             try
             {
                 var players = c.Database.GetCollection<Player>("player");
-                Player nPlayer = new Player { Name = (String)p["name"], Credit = (Double)p["credit"] };
+                Player nPlayer = new Player { Name = (String)json_params["name"], Credit = (Double)json_params["credit"] };
                 players.InsertOne(nPlayer);
 
                 return true;

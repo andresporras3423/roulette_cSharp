@@ -22,7 +22,7 @@ namespace roulette_cSharp.Controllers
             try
             {
                 var games = c.Database.GetCollection<Game>("game");
-                Game nGame = new Game {Status=0};
+                Game nGame = new Game {Status=0}; //0=created, 1=open, 2=close
                 games.InsertOne(nGame);
 
                 return nGame.Id.ToString();
@@ -30,7 +30,7 @@ namespace roulette_cSharp.Controllers
             catch
             {
 
-                return "error message";
+                return "-1";
             }
         }
         [HttpPut]
