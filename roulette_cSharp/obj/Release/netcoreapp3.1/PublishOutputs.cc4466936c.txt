@@ -1,0 +1,17 @@
+D:\documents\cSharp_projects\roulette_cSharp\roulette_cSharp\obj\Release\netcoreapp3.1\PubTmp\Out\roulette_cSharp.exe
+D:\documents\cSharp_projects\roulette_cSharp\roulette_cSharp\obj\Release\netcoreapp3.1\PubTmp\Out\appsettings.Development.json
+D:\documents\cSharp_projects\roulette_cSharp\roulette_cSharp\obj\Release\netcoreapp3.1\PubTmp\Out\appsettings.json
+D:\documents\cSharp_projects\roulette_cSharp\roulette_cSharp\obj\Release\netcoreapp3.1\PubTmp\Out\roulette_cSharp.dll
+D:\documents\cSharp_projects\roulette_cSharp\roulette_cSharp\obj\Release\netcoreapp3.1\PubTmp\Out\roulette_cSharp.deps.json
+D:\documents\cSharp_projects\roulette_cSharp\roulette_cSharp\obj\Release\netcoreapp3.1\PubTmp\Out\roulette_cSharp.runtimeconfig.json
+D:\documents\cSharp_projects\roulette_cSharp\roulette_cSharp\obj\Release\netcoreapp3.1\PubTmp\Out\roulette_cSharp.pdb
+D:\documents\cSharp_projects\roulette_cSharp\roulette_cSharp\obj\Release\netcoreapp3.1\PubTmp\Out\DnsClient.dll
+D:\documents\cSharp_projects\roulette_cSharp\roulette_cSharp\obj\Release\netcoreapp3.1\PubTmp\Out\MongoDB.Bson.dll
+D:\documents\cSharp_projects\roulette_cSharp\roulette_cSharp\obj\Release\netcoreapp3.1\PubTmp\Out\MongoDB.Driver.dll
+D:\documents\cSharp_projects\roulette_cSharp\roulette_cSharp\obj\Release\netcoreapp3.1\PubTmp\Out\MongoDB.Driver.Core.dll
+D:\documents\cSharp_projects\roulette_cSharp\roulette_cSharp\obj\Release\netcoreapp3.1\PubTmp\Out\MongoDB.Libmongocrypt.dll
+D:\documents\cSharp_projects\roulette_cSharp\roulette_cSharp\obj\Release\netcoreapp3.1\PubTmp\Out\Newtonsoft.Json.dll
+D:\documents\cSharp_projects\roulette_cSharp\roulette_cSharp\obj\Release\netcoreapp3.1\PubTmp\Out\SharpCompress.dll
+D:\documents\cSharp_projects\roulette_cSharp\roulette_cSharp\obj\Release\netcoreapp3.1\PubTmp\Out\runtimes\win\native\libzstd.dll
+D:\documents\cSharp_projects\roulette_cSharp\roulette_cSharp\obj\Release\netcoreapp3.1\PubTmp\Out\runtimes\win\native\snappy32.dll
+D:\documents\cSharp_projects\roulette_cSharp\roulette_cSharp\obj\Release\netcoreapp3.1\PubTmp\Out\runtimes\win\native\snappy64.dll

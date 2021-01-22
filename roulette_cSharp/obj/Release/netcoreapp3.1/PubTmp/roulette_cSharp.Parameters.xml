@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="rouletteGame" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^D:\\documents\\cSharp_projects\\roulette_cSharp\\roulette_cSharp\\obj\\Release\\netcoreapp3\.1\\PubTmp\\Out\\$" />
+  </parameter>
+</parameters>
