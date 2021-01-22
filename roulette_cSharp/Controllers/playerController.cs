@@ -10,13 +10,13 @@ using System.Threading.Tasks;
 
 namespace roulette_cSharp.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("[controller]/[action]")]
     [ApiController]
     public class playerController : ControllerBase
     {
         readonly Connection c = new Connection();
         [HttpPost]
-        public bool Post([FromBody]object response)
+        public bool create([FromBody]object response)
         {
             JObject json_params = JObject.Parse(response.ToString());
             try
