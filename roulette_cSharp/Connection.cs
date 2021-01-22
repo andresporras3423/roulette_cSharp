@@ -14,7 +14,7 @@ namespace roulette_cSharp
         public IMongoDatabase Database { get; set; }
         public Connection()
         {
-            Client = new MongoClient("mongodb://localhost:27017");
+            Client = new MongoClient("mongodb+srv://oscar:Oscarrussi1234@cluster0.6b6cp.mongodb.net/test");
             Database = Client.GetDatabase("roulette");
         }
     }

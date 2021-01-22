@@ -81,7 +81,7 @@ namespace roulette_cSharp.Controllers
                 return "-1";
             }
         }
-        private JObject give_prize_to_winner(List<Bet> bets, int winner_number)
+        private JObject give_prize_to_winner(List<Bet> bets, double winner_number)
         {
             JObject message = new JObject();
             JObject bets_data = new JObject();
@@ -99,7 +99,7 @@ namespace roulette_cSharp.Controllers
 
             return message;
         }
-        private JObject add_data_current_bet(Bet bet_data, float increase_factor)
+        private JObject add_data_current_bet(Bet bet_data, double increase_factor)
         {
             JObject current_bet = new JObject();
             current_bet.Add("id_player", bet_data.Id_player.ToString());
