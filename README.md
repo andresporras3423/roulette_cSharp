@@ -17,11 +17,11 @@ Web API for a roulette game, created by Oscar Russi
 # EndPoints:
 
 - game/get_all (GET): get all the roulette games with it's id and status
-- player/create (POST): create a new player, return true if created
+- player/create (POST): create a new player, return true if created. Body params: string name, double credit.
 - game/create (POST): create a new game with initial status 0, return game id
-- game/open?id= (PUT): update game status to 1 (open), return true if successful
-- bet/create (POST): create a new bet, return bet id
-- game/close?idGame= (PUT): close the game and return outcome of the bets. Also update credit for players if they win
+- game/open?id= (PUT): update game status to 1 (open), return true if successful. Url param: string id.
+- bet/create (POST): create a new bet, return bet id. Body params: string id_player, double value, int bet_number, string id_game
+- game/close?idGame= (PUT): close the game and return outcome of the bets. Also update credit for players if they win. Url param: string idGame.
 
 
 # Build with

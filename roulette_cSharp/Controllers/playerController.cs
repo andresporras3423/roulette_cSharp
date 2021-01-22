@@ -16,6 +16,7 @@ namespace roulette_cSharp.Controllers
     {
         readonly Connection c = new Connection();
         [HttpPost]
+        //body params: string name, double credit
         public bool create([FromBody]object response)
         {
             JObject json_params = JObject.Parse(response.ToString());

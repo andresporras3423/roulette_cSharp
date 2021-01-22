@@ -17,6 +17,7 @@ namespace roulette_cSharp.Controllers
     {
         readonly Connection c = new Connection();
         [HttpPost]
+        //Body params: string id_player, double value, int bet_number, string id_game
         //bet_number: from 0 until 36 for specific number bet, 37 for odd numbers, 38 for even numbers
         public string create([FromBody] object response)
         {
