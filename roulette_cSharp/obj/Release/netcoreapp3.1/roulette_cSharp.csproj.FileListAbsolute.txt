@@ -29,3 +29,10 @@ D:\documents\cSharp_projects\roulette_cSharp\roulette_cSharp\obj\Release\netcore
 D:\documents\cSharp_projects\roulette_cSharp\roulette_cSharp\obj\Release\netcoreapp3.1\roulette_cSharp.dll
 D:\documents\cSharp_projects\roulette_cSharp\roulette_cSharp\obj\Release\netcoreapp3.1\roulette_cSharp.pdb
 D:\documents\cSharp_projects\roulette_cSharp\roulette_cSharp\obj\Release\netcoreapp3.1\roulette_cSharp.genruntimeconfig.cache
+D:\documents\cSharp_projects\roulette_cSharp\roulette_cSharp\bin\Release\netcoreapp3.1\System.Web.Mvc.dll
+D:\documents\cSharp_projects\roulette_cSharp\roulette_cSharp\bin\Release\netcoreapp3.1\System.Web.Razor.dll
+D:\documents\cSharp_projects\roulette_cSharp\roulette_cSharp\bin\Release\netcoreapp3.1\System.Web.Helpers.dll
+D:\documents\cSharp_projects\roulette_cSharp\roulette_cSharp\bin\Release\netcoreapp3.1\System.Web.WebPages.Deployment.dll
+D:\documents\cSharp_projects\roulette_cSharp\roulette_cSharp\bin\Release\netcoreapp3.1\System.Web.WebPages.Razor.dll
+D:\documents\cSharp_projects\roulette_cSharp\roulette_cSharp\bin\Release\netcoreapp3.1\System.Web.WebPages.dll
+D:\documents\cSharp_projects\roulette_cSharp\roulette_cSharp\bin\Release\netcoreapp3.1\Microsoft.Web.Infrastructure.dll

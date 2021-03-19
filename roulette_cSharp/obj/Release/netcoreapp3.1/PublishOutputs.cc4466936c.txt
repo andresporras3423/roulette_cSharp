@@ -6,6 +6,13 @@ D:\documents\cSharp_projects\roulette_cSharp\roulette_cSharp\obj\Release\netcore
 D:\documents\cSharp_projects\roulette_cSharp\roulette_cSharp\obj\Release\netcoreapp3.1\PubTmp\Out\roulette_cSharp.runtimeconfig.json
 D:\documents\cSharp_projects\roulette_cSharp\roulette_cSharp\obj\Release\netcoreapp3.1\PubTmp\Out\roulette_cSharp.pdb
 D:\documents\cSharp_projects\roulette_cSharp\roulette_cSharp\obj\Release\netcoreapp3.1\PubTmp\Out\DnsClient.dll
+D:\documents\cSharp_projects\roulette_cSharp\roulette_cSharp\obj\Release\netcoreapp3.1\PubTmp\Out\System.Web.Mvc.dll
+D:\documents\cSharp_projects\roulette_cSharp\roulette_cSharp\obj\Release\netcoreapp3.1\PubTmp\Out\System.Web.Razor.dll
+D:\documents\cSharp_projects\roulette_cSharp\roulette_cSharp\obj\Release\netcoreapp3.1\PubTmp\Out\System.Web.Helpers.dll
+D:\documents\cSharp_projects\roulette_cSharp\roulette_cSharp\obj\Release\netcoreapp3.1\PubTmp\Out\System.Web.WebPages.Deployment.dll
+D:\documents\cSharp_projects\roulette_cSharp\roulette_cSharp\obj\Release\netcoreapp3.1\PubTmp\Out\System.Web.WebPages.Razor.dll
+D:\documents\cSharp_projects\roulette_cSharp\roulette_cSharp\obj\Release\netcoreapp3.1\PubTmp\Out\System.Web.WebPages.dll
+D:\documents\cSharp_projects\roulette_cSharp\roulette_cSharp\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.Web.Infrastructure.dll
 D:\documents\cSharp_projects\roulette_cSharp\roulette_cSharp\obj\Release\netcoreapp3.1\PubTmp\Out\MongoDB.Bson.dll
 D:\documents\cSharp_projects\roulette_cSharp\roulette_cSharp\obj\Release\netcoreapp3.1\PubTmp\Out\MongoDB.Driver.dll
 D:\documents\cSharp_projects\roulette_cSharp\roulette_cSharp\obj\Release\netcoreapp3.1\PubTmp\Out\MongoDB.Driver.Core.dll

@@ -29,3 +29,10 @@ D:\documents\cSharp_projects\roulette_cSharp\roulette_cSharp\bin\Debug\netcoreap
 D:\documents\cSharp_projects\roulette_cSharp\roulette_cSharp\bin\Debug\netcoreapp3.1\runtimes\win\native\snappy64.dll
 D:\documents\cSharp_projects\roulette_cSharp\roulette_cSharp\obj\Debug\netcoreapp3.1\roulette_cSharp.csproj.CopyComplete
 D:\documents\cSharp_projects\roulette_cSharp\roulette_cSharp\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\documents\cSharp_projects\roulette_cSharp\roulette_cSharp\bin\Debug\netcoreapp3.1\System.Web.Mvc.dll
+D:\documents\cSharp_projects\roulette_cSharp\roulette_cSharp\bin\Debug\netcoreapp3.1\System.Web.Razor.dll
+D:\documents\cSharp_projects\roulette_cSharp\roulette_cSharp\bin\Debug\netcoreapp3.1\System.Web.Helpers.dll
+D:\documents\cSharp_projects\roulette_cSharp\roulette_cSharp\bin\Debug\netcoreapp3.1\System.Web.WebPages.Deployment.dll
+D:\documents\cSharp_projects\roulette_cSharp\roulette_cSharp\bin\Debug\netcoreapp3.1\System.Web.WebPages.Razor.dll
+D:\documents\cSharp_projects\roulette_cSharp\roulette_cSharp\bin\Debug\netcoreapp3.1\System.Web.WebPages.dll
+D:\documents\cSharp_projects\roulette_cSharp\roulette_cSharp\bin\Debug\netcoreapp3.1\Microsoft.Web.Infrastructure.dll
